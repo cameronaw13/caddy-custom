@@ -17,7 +17,8 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: cameronaw13/caddy-custom
-  DOCKER_BUILDKIT: 1 # Should fix long build time (https://stackoverflow.com/a/59615689)
+  # Should fix long build time (https://stackoverflow.com/a/59615689)
+  DOCKER_BUILDKIT: 1
 
 jobs:
   build:
