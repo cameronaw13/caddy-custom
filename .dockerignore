@@ -1,2 +1,2 @@
-# ignore everything (fixes long build time)
+# ignore everything; should fix long build time (https://stackoverflow.com/a/59615689)
 *
