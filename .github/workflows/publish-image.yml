@@ -102,7 +102,7 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1.13.0
         with:
-          body: Version changelog listed [here.](https://github.com/caddyserver/caddy/releases/tag/${{ steps.parse-dockerfile.outputs.CADDY_VER }})
+          body: Version changelog listed [here.](https://github.com/caddyserver/caddy/releases/tag/v${{ steps.parse-dockerfile.outputs.CADDY_VER }})
           tag: ${{ steps.parse-dockerfile.outputs.CADDY_VER }}
           allowUpdates: true
           makeLatest: true
