@@ -8,7 +8,7 @@ name: Publish-Image
 on:
   pull_request:
     types: closed
-    branches: 'main'
+    branches: 'master'
     paths:
         - 'Dockerfile'
 
