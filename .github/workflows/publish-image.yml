@@ -100,7 +100,7 @@ jobs:
 
       # Create github release
       - name: Create release
-        uses: ncipollo/release-action@v1.13.0
+        uses: ncipollo/release-action@v1.14.0
         with:
           body: Version changelog listed [here.](https://github.com/caddyserver/caddy/releases/tag/v${{ steps.parse-dockerfile.outputs.CADDY_VER }})
           tag: ${{ steps.parse-dockerfile.outputs.CADDY_VER }}
